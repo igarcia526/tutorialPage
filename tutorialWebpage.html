@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="tutorialWebpage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+
+     </head>
+    <body>
+        
+     <header>   
+        <div class="container">   
+
+            <img src="jsLogo.png" alt="logo" class="logo">
+    
+            <nav>
+            <ul>
+            <li><a href="https://elevenfifty.org/">Home</a></li>         
+            <li><a href="#section-1">Functions</a></li>     
+            <li><a href="#section-2">Objects</a></li>     
+            <li><a href="#section-3">Arrays</a></li>     
+            
+            </ul>
+
+            </nav>     
+        </div> 
+     </header>
+
+     <div id="sidebar" class="visible">
+
+        <ul class="side">
+
+            <li><a href="https://www.codecademy.com/">CodeAcademy</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScriptMDN</a></li>
+            <li><a href="https://www.w3schools.com/tags/tag_html.asp">w3schools</a></li>
+
+        </ul>
+
+    </div>
+
+        <div class="animated  jello">
+            <p class= "melons">THIS IS JAVASCRIPT</p>
+        </div>
+        
+        <div class="animated slideInLeft">
+           <section id="section-1" class= "section-bodies">
+                    <article>
+            <h1 class="section-titles">Functions</h1>
+            <p> Functions can feel tricky and difficult for beginners, but if you stick with it, you will catch on faster than you think. A JavaScript function is defined with the 'function' keyword, followed by a name(which is applied to the function), followed by parentheses ().
+                Inside the parentheses are what we call 'parameters', which are the names listed in the function definition. You can have more than one parameter if necessary, just remember to seperate multiple parameters with commas. finally, the code which is to be executed is inside a pair of curly brackets {}. 
+                below is an example of a simple function:
+                <p>
+                <pre>
+                        <code>
+      function myFunc(){ 
+      console.log('hello world');
+      }
+                        </code>
+                      </pre>
+                </p>
+
+            As you can see, our function is named 'myFunc', doesnt take any parameters, and will return "hello world" when the function is called.
+            To call our function, we would have to call it by its name, which in this case is myFunc().
+    
+                
+            </p>
+                    </article>         
+            </section>
+        </div>
+
+        <div class="animated slideInRight">
+            <section id="section-2" class= "section-bodies" >
+                <article>
+            <h1 class="section-titles" >Objects</h1>
+            <p>Objects in Javascript are similar to objects in other programming languages. These 'objects' seem complex and while they can be, are
+                actually very similar to objects in our every day life. If you can think of javascript objects as a regular object in real life, it will
+                be a lot easier for you to grasp the concept. In javascript, an object is an entity with 'properties' and 'type'. In real life, a cup
+                has a color, a design, weight, and material its made from.  Javascript objects can be thought of similarly. Below you will find a simple 
+                javascript object:
+                <P>
+                    <pre>
+                        <code>
+let myHonda = {
+        color: 'red',
+        wheels: 4,
+        engine: {cylinders: 4, size: 2.2}
+       }           
+
+                        </code>
+                    </pre>
+                In this object, we have 3 Key-Value pairs. The first is 'Color:red', where the 'Key' is 'Color' and the value is the string 'red'. the next Key-Value pair is 
+                'Wheels:4', where the 'key' is wheels and the value is the number 4. Finally, we have another object in our third key-value pair, which consists of 2 elements. 
+                Nested objects are very simple to understand once you get enough practice.  
+                
+
+                </P>
+                </article>
+            </section>
+        </div>
+
+        <div class="animated slideInLeft">
+            <section id="section-3" class= "section-bodies">
+                 <article>
+            <h1 class="section-titles">Arrays</h1>
+            <p>
+                In Javascript, we can use variables to store values. But what if we wanted to store multiple values in one single variable? Welcome to Arrays. These special variables, can hold more than one value at a time. These variables are helpful when you have 
+                lists you want to store. They seem redundant at first, but we have to realize, some lists can be hundreds, even thousands of values long. With an array, searching for a certain value would take less than a second. Arrays have a name, and store their values in a set of 
+            brackets [], the elements inside are seperated by commas. 
+            </p>
+            <p>
+                <Pre>
+                    <code>
+
+     let myCars= ['charger', 8, 'camry', 4, 'accord', 6]
+
+                    </code>
+                </Pre>
+                In the array above, named 'myCars', we have 6 elements inside. 3 string type, and 3 number type. Arrays can store different types of values, including booleans, strings, numbers, and even objects. Each element in an array has an 'index', which is the number assigned
+                to its position within the array. in our myCars array, 'camry' is being held in index:2. This means console.log(myCars[2]) would print out 'camry'. Arrays can be a simple concept to grasp at first, but can get a lot more complex. They are a very powerful tool.
+            </p>
+                 </article> 
+            </section>
+        </div>
+
+        <footer>
+            <p>
+                Isaac Garcia
+                <p>2019</p>
+            </p>
+
+        </footer>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
